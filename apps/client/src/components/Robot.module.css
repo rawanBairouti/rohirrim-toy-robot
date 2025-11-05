@@ -1,0 +1,16 @@
+.robot,
+.arrow {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+}
+
+.robot {
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+
+.arrow {
+	margin-left: 25px;
+	transform-origin: bottom center;
+}

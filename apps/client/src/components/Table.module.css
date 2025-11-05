@@ -1,0 +1,42 @@
+.table {
+	display: grid;
+	position: relative;
+	grid-template-columns: repeat(5, 1fr);
+	border: 1px solid #5D5E5E;
+	height: 500px;
+	width: 500px;
+	background-color: #242F31;
+}
+
+.square {
+	outline: 1px solid #5D5E5E;
+}
+
+button {
+	height: 32px;
+}
+
+.controls {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	align-items: center;
+	padding: 32px;
+}
+
+.movement-controls {
+	display: flex;
+	gap: 18px;
+
+	button {
+		width: 80px;
+	}
+}
+
+.report-button, .history-button {
+	width: 150px;
+	align-self: center;
+	color: white;
+	background: #242F31;
+	border-color: #22ACB8;
+}

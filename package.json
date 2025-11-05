@@ -1,0 +1,22 @@
+{
+    "name": "rohirrihm-toy-robot",
+    "private": true,
+    "workspaces": [
+        "apps/*"
+    ],
+    "scripts": {
+        "dev:server": "npm --workspace apps/server run start:dev",
+        "dev:client": "npm --workspace apps/client run dev",
+        "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+        "build:server": "npm --workspace apps/server run build",
+        "build:client": "npm --workspace apps/client run build",
+        "build": "npm run build:server && npm run build:client"
+    },
+    "dependencies": {
+        "@nestjs/typeorm": "^11.0.0",
+        "better-sqlite3": "^12.4.1",
+        "concurrently": "^9.2.1",
+        "sqlite3": "^5.1.7",
+        "typeorm": "^0.3.27"
+    }
+}

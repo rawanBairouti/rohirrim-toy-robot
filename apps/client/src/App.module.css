@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  margin: 32px;
+}
+
+.drawer-container {
+  margin-top: 109px;
+  margin-right: 64px;
+}
+
+.instructions {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #292F30;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 32px 0;
+}
