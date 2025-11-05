@@ -24,3 +24,8 @@ The client and server should now both be running in the IDE terminal. After that
 - First launch doesn't show any robots. Subsquent launches and refreshes of the page show the last saved robot.
 - The 'right' and 'left' movement of the robot follow intuitive order of moving a game piece, rathen than a full circle.
 - I added a 'History' button that shows the recent moves of the current robot, to demonstrate the positions being saved into the database and pulled correctly.
+
+## Testing
+
+- I would want to write a lot of unit tests for both the fontend and especially the backend, but it would take a long time to write them all.
+I wrote a few examples for the Table component. To run the tests, navigate to apps/client then run:   `npm run test Table`
